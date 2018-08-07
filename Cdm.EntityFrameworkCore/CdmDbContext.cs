@@ -13,5 +13,7 @@ namespace Cdm.EntityFrameworkCore
         public DbSet<Concept> Concepts { get; set; }
 
         public DbSet<Vocabulary> Vocabularies { get; set; }
+
+        public DbSet<SourceToConceptMap> SourceToConceptMaps { get; set; }
     }
 }
